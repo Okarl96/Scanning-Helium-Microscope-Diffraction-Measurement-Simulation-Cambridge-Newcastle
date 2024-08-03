@@ -74,3 +74,9 @@ This is the place where the parameters of importing these Multiscat results corr
 These are the parameters for generating the 2D plot. The function of each parameter is exactly the same as introduced above.
 
 <img width="926" alt="2d example" src="https://github.com/user-attachments/assets/fd185cb1-e5d6-4974-8a33-78c088b244af">
+
+There is one thing to be noticed, if one wants to import Multiscat results, the 'angle_ranges' should be changed according to whether the **reverse_latt_orientation_for_simulation** is enabled or not and the value of **Angle compensation**. For example: if we are using 'MoS2_2H_NEW.mtl', the proper importing parameters are 'angle_compensate = -30, reverse_latt_orientation_for_simulation=True'. The values in the 'latt_orientation', 60, will be summed by the 'angle_compensate' which is -30. The actual lattice orientation imported from the Multiscat will be 30. The 'reverse_latt_orientation_for_simulation' is enabled which means the simulation will generate lattice orientations at -60. In summary, we are assigning Multiscat results (at 30 deg) to simulated diffraction peaks at a lattice orientation (-60 deg).
+
+To generate the simulated 2D plot. The dkx, dky, and intensity array will be reshaped into meshgrid structure.
+
+<img width="278" alt="plot" src="https://github.com/user-attachments/assets/3c1152dd-7968-45db-bf49-53eeddf23c5a">
