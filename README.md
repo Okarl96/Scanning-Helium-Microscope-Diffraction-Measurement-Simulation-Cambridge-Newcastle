@@ -60,3 +60,17 @@ Figure adopted from https://doi.org/10.1016/j.ultramic.2024.113951
 **save_plots**: Click to save the plot, but keep it turned off when adjusting parameters.
 
 **save_plots_index**: Name of the picture file saved in "save_plots".
+
+
+
+
+
+An example of plotting the 2D diffraction measurement is in the notebook.
+
+This is the place where the parameters of importing these Multiscat results correctly into the simulation are recorded.
+
+<img width="846" alt="multiscat data" src="https://github.com/user-attachments/assets/e8950261-0a51-4261-9149-3674a98b6325">
+
+These are the parameters for generating the 2D plot. The function of each parameter is exactly the same as introduced above.
+
+<img width="926" alt="2d example" src="https://github.com/user-attachments/assets/fd185cb1-e5d6-4974-8a33-78c088b244af">
