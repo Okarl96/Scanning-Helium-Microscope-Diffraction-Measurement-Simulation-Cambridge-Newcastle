@@ -39,7 +39,7 @@ Figure adopted from https://doi.org/10.1016/j.ultramic.2024.113951
 
 **Peak width**: The standard deviation of the Normal Distribution that gives width to each diffraction peak.
 
-**use_reduce_in_signal_along_z**,**Pattern width**,**Pattern width**,**use_bg_diffuse_signal**,**Diffuse BG width**,**Diffuse BG scale** are functions that generate background noise for the Cambridge SHeM, can be used here to test the code but future work of simulating background noise in the Newcastle SHeM is needed.
+**use_reduce_in_signal_along_z**, **Pattern width**, **Pattern width**, **use_bg_diffuse_signal**, **Diffuse BG width**, **Diffuse BG scale** are functions that generate background noise for the Cambridge SHeM, can be used here to test the code but future work of simulating background noise in the Newcastle SHeM is needed.
 
 **use_multiscat**: Import multiscat datafile and assign diffraction channel intensites accordingly.
 
